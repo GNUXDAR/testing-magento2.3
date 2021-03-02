@@ -1,0 +1,21 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
+    <router id="standard">
+        <route id="primero" frontName="ejemplo">
+            <module name="Primer_Modulo"/>
+        </route>
+        <route id="hola" frontName="hola-mundo">
+            <module name="Primer_Modulo"/>
+        </route>
+        
+        <!-- tipos de salidas desde un controlador -->
+        <route id="salidas" frontName="salidas">
+            <module name="Primer_Modulo"/>
+        </route>
+        <route id="json" frontName="salida-json">
+            <module name="Primer_Modulo"/>
+        </route>
+        <route id="redirect" frontName="redireccion">
+            <module name="Primer_Modulo"/>
+        </route>
+    </router>
+</config>
