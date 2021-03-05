@@ -17,5 +17,9 @@
         <route id="redirect" frontName="redireccion">
             <module name="Primer_Modulo"/>
         </route>
+        <!-- log desde el controlador -->
+        <route id="log" frontName="log">
+            <module name="Primer_Modulo"/>
+        </route>
     </router>
 </config>
